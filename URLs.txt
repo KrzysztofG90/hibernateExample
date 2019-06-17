@@ -1,0 +1,44 @@
+Cwiczenie 1/2:
+http://localhost:8080/hibernate-demo/student?action=findAll
+http://localhost:8080/hibernate-demo/student?action=update&id=1&name=Pawel%20Karol
+http://localhost:8080/hibernate-demo/student?action=add&name=Agnieszka
+http://localhost:8080/hibernate-demo/student?action=delete&id=3
+
+Cwiczenie 3:
+http://localhost:8080/hibernate-demo/student?action=add&name=Tomasz&surname=Smith&dateOfBirth=1988-02-28
+http://localhost:8080/hibernate-demo/student?action=update&id=1&name=Michal&surname=Kowalski&dateOfBirth=1975-01-01
+
+Cwiczenie 4:
+http://localhost:8080/hibernate-demo/computer?action=findAll
+http://localhost:8080/hibernate-demo/computer?action=add&name=MacBook Air&os=OS X
+http://localhost:8080/hibernate-demo/computer?action=update&id=2&name=Dell Latitude Inspire 15&os=Ubuntu 16.04
+http://localhost:8080/hibernate-demo/computer?action=delete&id=1
+
+Cwiczenie 5:
+http://localhost:8080/hibernate-demo/computer?action=add&name=MacBook%20Air&os=OS%20X
+http://localhost:8080/hibernate-demo/student?action=add&name=Tomasz&surname=Smith&dateOfBirth=1988-02-28&computer_id=3
+
+Cwiczenie 6:
+http://localhost:8080/hibernate-demo/student?action=add&name=Tomasz&surname=Smith&dateOfBirth=1988-02-28&computer_id=3&address_id=2
+http://localhost:8080/hibernate-demo/address?action=add&street=Kolobrzeska&city=Gdansk
+
+Cwiczenie 8:
+http://localhost:8080/hibernate-demo/course?action=findAll
+http://localhost:8080/hibernate-demo/course?action=add&name=JJDD8
+http://localhost:8080/hibernate-demo/course?action=delete&id=1
+
+http://localhost:8080/hibernate-demo/computer?action=add&name=MacBook%20Air&os=OS%20X
+http://localhost:8080/hibernate-demo/student?action=add&name=Tomasz&surname=Smith&dateOfBirth=1988-02-28&computer_id=3&address_id=1
+http://localhost:8080/hibernate-demo/student?action=update&id=3&name=Tomasz&surname=Smith&dateOfBirth=1988-02-28&computer_id=3&address_id=1&course_id=1
+
+Bonus 1:
+http://localhost:8080/hibernate-demo/student?action=findNames
+
+Bonus 2:
+http://localhost:8080/hibernate-demo/student?action=findDates
+
+Cwiczenie 9:
+http://localhost:8080/hibernate-demo/student?action=findBornAfter&date=1980-01-01
+
+Cwiczenie 10:
+http://localhost:8080/hibernate-demo/student?action=summary
